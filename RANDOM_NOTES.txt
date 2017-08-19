@@ -1,0 +1,5 @@
+Notes : 
+
+1 - When installing a package in conda and you get an error : Collecting tensorflow Could not fetch URL https://pypi.python.org/simple/tensorflow/: There was a problem confirming the ssl certificate: 
+        [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:749) - skipping
+    Solution :  : pip install --trusted-host pypi.python.org tensorflow
